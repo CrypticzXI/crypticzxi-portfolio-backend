@@ -1,5 +1,7 @@
 # CrypticzXI's Portfolio / Backend
 
+## No longer maintained for the public domain!
+
 
 What this project does:
 * Use Sanity.io for a database to hold all of your wonderful artwork!
