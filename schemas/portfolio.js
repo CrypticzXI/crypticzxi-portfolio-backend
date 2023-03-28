@@ -10,7 +10,7 @@ export default {
       },
       {
         name: 'description',
-        type: 'string',
+        type: 'richText',
         title: 'Description'
       },
       {
