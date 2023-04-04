@@ -14,6 +14,17 @@ export default {
         title: 'Description'
       },
       {
+        name: 'date',
+        title: "Publish Date (Schedule's Blog Post!)",
+        type: "datetime",
+        options: {
+            dateFormat: 'YYYY-MM-DD',
+            timeFormat: 'HH:mm',
+            timeStep: 15,
+            calendarTodayLabel: 'Today'
+          }
+      },
+      {
         name: 'owninguser',
         title: 'Owning User',
         type: 'user',
