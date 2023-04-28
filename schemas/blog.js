@@ -25,7 +25,7 @@ export default {
       {
         name: 'tagslug',
         title: 'Tag Slug Used (Sanity is being gay and I really CBA)',
-        type: 'string',
+        type: 'slug',
       },
       {
         name: 'tags',
