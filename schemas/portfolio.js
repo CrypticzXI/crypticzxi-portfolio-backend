@@ -14,6 +14,11 @@ export default {
         title: 'Description'
       },
       {
+        name: 'tags',
+        title: 'Tag',
+        type: 'tagsref',
+      },
+      {
         name: 'date',
         title: "Publish Date (Schedule's Blog Post!)",
         type: "datetime",

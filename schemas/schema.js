@@ -16,6 +16,8 @@ import links from "./links";
 import blog from "./blog";
 import portfolioRef from "./portfolioRef";
 import links_page from "./links_page";
+import tagsref from "./tagsref";
+import tags from "./tags";
 
 export default createSchema({
   name: "default",
@@ -35,6 +37,8 @@ export default createSchema({
     links,
     blog,
     portfolioRef,
-    links_page
+    links_page,
+    tagsref,
+    tags
   ]),
 });
