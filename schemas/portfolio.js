@@ -16,7 +16,7 @@ export default {
       {
         name: 'tags',
         title: 'Tag',
-        type: 'tagsref',
+        type: 'tagref',
       },
       {
         name: 'date',
