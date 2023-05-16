@@ -7,6 +7,17 @@ export default {
         type: 'block'
       },
       {
+        type: 'iframe',
+        fields: [
+          {
+            type: 'text',
+            options: {
+              isHighlighted: true
+            }
+          }
+        ]
+      },
+      {
         type: 'image',
         fields: [
           {
@@ -22,15 +33,6 @@ export default {
               isHighlighted: true
             }
           },
-          {
-        type: 'iframe',
-        fields: [
-          {
-            type: 'text',
-            options: {
-              isHighlighted: true
-            }
-          }
         ]
       }
     ]
