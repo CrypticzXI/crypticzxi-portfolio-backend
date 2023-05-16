@@ -21,6 +21,15 @@ export default {
             options: {
               isHighlighted: true
             }
+          },
+          {
+        type: 'iframe',
+        fields: [
+          {
+            type: 'text',
+            options: {
+              isHighlighted: true
+            }
           }
         ]
       }
