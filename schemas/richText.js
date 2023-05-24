@@ -39,23 +39,6 @@ export default {
           }
         }
       ]
-    },
-    {
-      type: 'object',
-      name: 'fileUpload',
-      title: 'File Upload',
-      fields: [
-        {
-          type: 'file',
-          name: 'file',
-          title: 'File',
-          description: 'Upload a file',
-          validation: Rule => Rule.required(),
-          options: {
-            isHighlighted: true
-          }
-        }
-      ]
     }
   ]
 };
