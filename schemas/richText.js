@@ -1,10 +1,10 @@
 export default {
   name: 'richText',
-  title: 'richText',
+  title: 'Rich Text',
   type: 'array',
   of: [
     {
-      type: 'block'
+      type: 'block',
     },
     {
       type: 'image',
@@ -17,12 +17,20 @@ export default {
             be they blind, color-blind, low-sighted; 
             alternative text is of great help for those 
             people that can rely on it to have a good idea of 
-            what\'s on your page.`,
+            what's on your page.`,
           options: {
-            isHighlighted: true
-          }
+            isHighlighted: true,
+          },
         },
-      ]
+      ],
+    },
+    {
+      type: 'file',
+      name: 'pdf',
+      title: 'PDF File',
+      options: {
+        accept: '.pdf',
+      },
     },
     {
       type: 'object',
@@ -33,12 +41,12 @@ export default {
           name: 'html',
           title: 'HTML',
           description: 'Enter raw HTML code',
-          validation: Rule => Rule.required(),
+          validation: (Rule) => Rule.required(),
           options: {
-            isHighlighted: true
-          }
-        }
-      ]
-    }
-  ]
+            isHighlighted: true,
+          },
+        },
+      ],
+    },
+  ],
 };
